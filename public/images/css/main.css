@@ -1,0 +1,31 @@
+/*
+corpo css
+ quando eu escrevo uma tag com "#" antes quer dizer que estou me referindo a um id
+*/
+
+
+/* seletor universal, irá pegar todos os elementos possiveis da pag
+padding preenchimento */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* altura total */
+    height: 100vh;
+    color: white;   
+    background: #ebf2f5;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body, input,button, textarea{
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family:'Nunito', sans-serif; ;
+    /* altura da linha*/
+    line-height: 1;   
+}
